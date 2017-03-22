@@ -1,5 +1,10 @@
 ## Template Design Pattern
-Demonstrate the template design pattern in php.
+Demonstrate the Template design pattern in php for a Sub Sandwich shop. 
+
+### More Info
+You will find two folders namely "correctway" or "wrongway". 
+correctway folder = Code written with the Template pattern.
+wrongway folder = Code written with no pattern.
 
 ##
 
