@@ -1,32 +1,38 @@
 <?php
-	
-	abstract class Sub {
 
-		public function make() {
+	abstract class Sub
+	{
+		public function make()
+		{
 			var_dump($this->addToppings());
+
 		 	return $this->layBread()
-		 		// ->addToppings()
-		 		->addSauces()
-		 		->addLettuce();
+		 				->addSauces()
+		 				->addLettuce();
+
+		 	// ->addToppings()
 	 	}
 
 	 	protected abstract function addToppings ();
 
-		protected function layBread () {
-		 	var_dump('lay bread');	 
+		protected function layBread ()
+		{
+		 	var_dump('lay bread');
 
-		 	return $this;	
+		 	return $this;
 		 }
 
-		 protected function addLettuce () {
+		 protected function addLettuce ()
+		 {
 		 	var_dump('lay lettue');
 
-		 	return $this;	
+		 	return $this;
 		 }
-		 
-		 protected function addSauces () {
+
+		 protected function addSauces ()
+		 {
 		 	var_dump('lay sauces');
-		 	
+
 		 	return $this;
 		 }
 	}

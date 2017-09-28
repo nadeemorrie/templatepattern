@@ -1,36 +1,42 @@
 <?php
 
-class TurkeySub {
-	 public function make() {
+class TurkeySub
+{
+	 public function make()
+	 {
 	 	return $this->layBread()
-	 		->addLettuce()
-	 		->addTurkey()
-	 		->addSauces();
+	 				->addLettuce()
+	 				->addTurkey()
+	 				->addSauces();
 	 }
 
-	 public function layBread () {
-	 	var_dump('lay bread');	 
+	 public function layBread ()
+	 {
+	 	var_dump('lay bread');
 
-	 	return $this;	
+	 	return $this;
 	 }
 
-	 public function addLettuce () {
+	 public function addLettuce ()
+	 {
 	 	var_dump('lay lettue');
 
-	 	return $this;	
+	 	return $this;
 	 }
 
-	 public function addTurkey () {
-	 	var_dump('lay turkey');	 	
+	 public function addTurkey ()
+	 {
+	 	var_dump('lay turkey');
 
 	 	return $this;
 	 }
 
-	 public function addSauces () {
+	 public function addSauces ()
+	 {
 	 	var_dump('lay sauces');
+
 	 	return $this;
 	 }
-	 
 }
 
 ?>
