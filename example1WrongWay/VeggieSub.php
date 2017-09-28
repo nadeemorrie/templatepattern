@@ -5,10 +5,10 @@ class VeggieSub
 	 public function make()
 	 {
 	 	return $this
-				->layBread()
-	 			->addVeggies()
-	 			->addLettuce()
-	 			->addSauces();
+		    ->layBread()
+		    ->addVeggies()
+		    ->addLettuce()
+		    ->addSauces();
 	 }
 
 	 public function layBread ()
