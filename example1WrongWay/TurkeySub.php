@@ -4,10 +4,11 @@ class TurkeySub
 {
 	 public function make()
 	 {
-	 	return $this->layBread()
-	 				->addLettuce()
-	 				->addTurkey()
-	 				->addSauces();
+	 	return $this
+	 			->layBread()
+	 			->addTurkey()
+	 			->addLettuce()
+	 			->addSauces();
 	 }
 
 	 public function layBread ()
@@ -19,7 +20,7 @@ class TurkeySub
 
 	 public function addLettuce ()
 	 {
-	 	var_dump('lay lettue');
+	 	var_dump('lay lettuce');
 
 	 	return $this;
 	 }

@@ -6,9 +6,10 @@
 		{
 			var_dump($this->addToppings());
 
-		 	return $this->layBread()
-		 				->addSauces()
-		 				->addLettuce();
+		 	return $this
+			 	->addSauces()
+			 	->layBread()
+			 	->addLettuce();
 
 		 	// ->addToppings()
 	 	}
@@ -24,7 +25,7 @@
 
 		 protected function addLettuce ()
 		 {
-		 	var_dump('lay lettue');
+		 	var_dump('lay lettuce');
 
 		 	return $this;
 		 }
